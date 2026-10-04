@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CS43131-CNZR") (type "KiCad") (uri "/home/sneak/KicadProjects/MP3player/kicad/parts/CS4313-CNZR/symbol/CS43131-CNZR.kicad_sym") (options "") (descr ""))
+)
