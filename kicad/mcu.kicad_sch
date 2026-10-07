@@ -7516,6 +7516,16 @@
 		)
 		(uuid "5a4cd248-bd37-4b17-865c-94b672d9da57")
 	)
+	(text "check crystal caps"
+		(exclude_from_sim no)
+		(at 560.832 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a5764f4-2faa-4666-8d02-bbadad12b8da")
+	)
 	(text "RMII"
 		(exclude_from_sim no)
 		(at 321.564 163.068 0)
@@ -9191,6 +9201,16 @@
 		)
 		(uuid "02bdd2d6-8673-44ff-b737-b07286e0d5ed")
 	)
+	(bus
+		(pts
+			(xy 386.08 137.16) (xy 384.81 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02be2f38-4b45-4f69-b4c0-d84f0f39952c")
+	)
 	(wire
 		(pts
 			(xy 82.55 325.12) (xy 82.55 369.57)
@@ -9400,6 +9420,16 @@
 			(type default)
 		)
 		(uuid "1176dbba-69d6-47fa-a7a0-27cbd5aef834")
+	)
+	(bus
+		(pts
+			(xy 386.08 149.86) (xy 384.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11861b36-922f-4be1-a0d5-eb74d415c463")
 	)
 	(wire
 		(pts
@@ -9670,16 +9700,6 @@
 			(type default)
 		)
 		(uuid "23da0350-4614-4afe-8bdc-c244ed838ee0")
-	)
-	(bus
-		(pts
-			(xy 386.08 154.94) (xy 386.08 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24438e32-b2cf-4a06-a5d6-b163bdaf3d75")
 	)
 	(wire
 		(pts
@@ -10350,16 +10370,6 @@
 			(type default)
 		)
 		(uuid "4beb11a9-4e7a-4949-8917-db0cff819cbd")
-	)
-	(bus
-		(pts
-			(xy 384.81 134.62) (xy 386.08 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c244e2d-ce6f-433b-838f-24eb77a649cf")
 	)
 	(wire
 		(pts
@@ -11631,6 +11641,16 @@
 		)
 		(uuid "90a556b6-5f6f-4135-95de-ca1f68c3d956")
 	)
+	(bus
+		(pts
+			(xy 386.08 147.32) (xy 386.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90dee264-0d1e-4e53-b547-6a798f63357c")
+	)
 	(wire
 		(pts
 			(xy 38.1 86.36) (xy 38.1 85.09)
@@ -12463,6 +12483,16 @@
 	)
 	(bus
 		(pts
+			(xy 386.08 154.94) (xy 386.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd50606e-5674-487f-b68f-1731f92d839f")
+	)
+	(bus
+		(pts
 			(xy 548.64 264.16) (xy 549.91 264.16)
 		)
 		(stroke
@@ -12860,16 +12890,6 @@
 			(type default)
 		)
 		(uuid "d19c9148-ad91-4bb6-9f92-4235a876c8e8")
-	)
-	(wire
-		(pts
-			(xy 199.39 157.48) (xy 215.9 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24a1f3f-0232-41d8-8fd8-34716d1bd286")
 	)
 	(wire
 		(pts
@@ -16305,17 +16325,6 @@
 		)
 		(uuid "10bf15ca-bbf0-424f-bcbd-953a39d1a957")
 	)
-	(hierarchical_label "HDMI_CEC"
-		(shape input)
-		(at 215.9 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10e9f052-b3a3-4867-a74d-1fb4f013e4ff")
-	)
 	(hierarchical_label "COMP2{INP INN}"
 		(shape bidirectional)
 		(at 229.87 294.64 0)
@@ -16383,7 +16392,7 @@
 		(uuid "37554713-0430-4036-b585-fc40a0f00b20")
 	)
 	(hierarchical_label "I2S2{MCK WS CK SDI SDO}"
-		(shape input)
+		(shape output)
 		(at 551.18 69.85 180)
 		(effects
 			(font
@@ -16414,6 +16423,17 @@
 			(justify right)
 		)
 		(uuid "421eba93-5fa7-4e58-88d9-c30f5e204aa8")
+	)
+	(hierarchical_label "RMII{TXD0 TXD1 TXEN RXD0 RXD1}"
+		(shape bidirectional)
+		(at 384.81 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d5b2414-2d26-4964-aef4-57143b4dc437")
 	)
 	(hierarchical_label "SDMMC{D_{[0..4]} CLK CMD}"
 		(shape bidirectional)
@@ -16471,7 +16491,7 @@
 		(uuid "5e7812af-7d79-458e-8ffb-d512f7249c78")
 	)
 	(hierarchical_label "SAI1A{MCLK FS SCK SD}"
-		(shape input)
+		(shape output)
 		(at 549.91 34.29 180)
 		(effects
 			(font
@@ -16537,7 +16557,7 @@
 		(uuid "6d5c2b59-40f5-4239-aac0-14fad92b0777")
 	)
 	(hierarchical_label "SPI1{NSS SCK MISO MOSI}"
-		(shape input)
+		(shape bidirectional)
 		(at 382.27 224.79 180)
 		(effects
 			(font
@@ -16568,17 +16588,6 @@
 			(justify right)
 		)
 		(uuid "7b8fdacc-9fad-425e-8e17-b6ff7e0926a0")
-	)
-	(hierarchical_label "RMII{TXD0 TXD1 TXEN RXD0 RXD1 CRS_DV MDIO MDC}"
-		(shape bidirectional)
-		(at 384.81 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f98aa94-6a5f-47c9-8c89-28c33a478937")
 	)
 	(hierarchical_label "FDCAN1{RX TX}"
 		(shape bidirectional)
@@ -16679,6 +16688,17 @@
 		)
 		(uuid "c22d6417-2f22-44f7-a641-05a58af34668")
 	)
+	(hierarchical_label "RMII{CRS_DV MDIO MDC}"
+		(shape bidirectional)
+		(at 384.81 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d35eef12-3d8c-40a2-bcf1-3c298ebad4db")
+	)
 	(hierarchical_label "USB_OTG_FS{D- D+}"
 		(shape bidirectional)
 		(at 240.03 121.92 0)
@@ -16691,7 +16711,7 @@
 		(uuid "d58e38e7-d933-45a2-93f5-bbbd7aff1296")
 	)
 	(hierarchical_label "DAC1_OUT1"
-		(shape input)
+		(shape output)
 		(at 215.9 109.22 0)
 		(effects
 			(font
@@ -16702,7 +16722,7 @@
 		(uuid "ddead01f-b7b7-4b41-a3bb-7a2554e7137d")
 	)
 	(hierarchical_label "QUADSPI{D[4..0] CLK ~{CS}}"
-		(shape input)
+		(shape bidirectional)
 		(at 485.14 119.38 180)
 		(effects
 			(font
@@ -16824,7 +16844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 558.8 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -16906,7 +16926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -16988,7 +17008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17070,7 +17090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 38.1 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -17152,7 +17172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -17212,7 +17232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56c9e02b-dadb-415c-a942-7105587b0908")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 60.198 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17271,7 +17291,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/5a1d56ac-f234-404b-997d-39ebf9479f62"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -17467,7 +17487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 533.4 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17549,7 +17569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 558.8 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -17787,7 +17807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18896,7 +18916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal_AKL:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 546.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -19060,7 +19080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal_AKL:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 546.1 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -19148,7 +19168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 50.8 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -19230,7 +19250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -19312,7 +19332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 533.4 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -19394,7 +19414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)

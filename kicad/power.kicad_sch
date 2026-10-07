@@ -1842,16 +1842,6 @@
 		)
 		(uuid "73db8cde-cacf-416e-b685-6b885ef01e4d")
 	)
-	(text "add fpga power sequencing"
-		(exclude_from_sim no)
-		(at 152.3315 91.2822 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a845c7cd-73eb-4825-a7ba-37661155f246")
-	)
 	(text "FPGA filter"
 		(exclude_from_sim no)
 		(at 209.296 49.276 0)
@@ -1871,16 +1861,6 @@
 			)
 		)
 		(uuid "c5db2a05-6160-47c8-80d4-aa0e0141e26f")
-	)
-	(text "or mcu control en"
-		(exclude_from_sim no)
-		(at 151.638 95.504 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ca10acc1-0ab6-4ede-b406-5c3772858119")
 	)
 	(text "FPGA filter"
 		(exclude_from_sim no)
@@ -1903,18 +1883,6 @@
 		(uuid "f655df69-df35-40d7-bc4d-4f0c0cfcca6c")
 	)
 	(junction
-		(at 64.77 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0249f6d6-37aa-45aa-b39a-a57063679f27")
-	)
-	(junction
-		(at 64.77 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cd15b4e-893d-49d2-8660-808dd16b4af7")
-	)
-	(junction
 		(at 93.98 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1931,12 +1899,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fdcf290-5a9c-429c-a0ce-794153a0770e")
-	)
-	(junction
-		(at 64.77 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18dc117e-9e55-4949-acdc-35e247fc8e29")
 	)
 	(junction
 		(at 82.55 87.63)
@@ -2218,16 +2180,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 78.74) (xy 64.77 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c3f58e0-2eda-4049-a96e-a37e801cd374")
-	)
-	(wire
-		(pts
 			(xy 73.66 48.26) (xy 73.66 49.53)
 		)
 		(stroke
@@ -2368,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 64.77 76.2)
+			(xy 58.42 76.2) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 114.3) (xy 64.77 114.3)
+			(xy 58.42 114.3) (xy 66.04 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2790,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 152.4) (xy 58.42 152.4)
+			(xy 66.04 78.74) (xy 64.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813f54e3-b108-4e15-aea0-34e38e7a3771")
+	)
+	(wire
+		(pts
+			(xy 58.42 152.4) (xy 66.04 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2848,23 +2810,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 114.3) (xy 64.77 116.84)
+			(xy 64.77 111.76) (xy 64.77 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8517d842-736f-433d-b46b-327e41869e26")
-	)
-	(wire
-		(pts
-			(xy 66.04 152.4) (xy 64.77 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a2b2c85-a263-4183-a5c7-a1fb76e444da")
 	)
 	(wire
 		(pts
@@ -3018,16 +2970,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 76.2) (xy 58.42 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a68613a7-3f1f-4a66-8bf2-79a2e52d08af")
-	)
-	(wire
-		(pts
 			(xy 207.01 34.29) (xy 207.01 33.02)
 		)
 		(stroke
@@ -3085,16 +3027,6 @@
 			(type default)
 		)
 		(uuid "b5aa3741-8ad2-41ae-9cd8-6b68e31b20e2")
-	)
-	(wire
-		(pts
-			(xy 64.77 114.3) (xy 58.42 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba4d35fd-e5f4-40a8-801e-11adef56f6ef")
 	)
 	(wire
 		(pts
@@ -3238,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 152.4) (xy 64.77 154.94)
+			(xy 64.77 149.86) (xy 64.77 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3275,6 +3207,16 @@
 			(type default)
 		)
 		(uuid "d4f2c8ba-91be-4f8e-80ce-7820c3e35d36")
+	)
+	(wire
+		(pts
+			(xy 64.77 78.74) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96f3911-21ce-4177-b2e3-4f8176cbd29a")
 	)
 	(wire
 		(pts
@@ -3355,16 +3297,6 @@
 			(type default)
 		)
 		(uuid "ec277558-5e37-41f4-ba80-c5d365540af5")
-	)
-	(wire
-		(pts
-			(xy 64.77 76.2) (xy 64.77 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec36d05d-1f34-4a69-bc8e-61cb67e048ed")
 	)
 	(wire
 		(pts
@@ -3456,6 +3388,39 @@
 		)
 		(uuid "fde46aed-59b7-45c9-9714-884918c36842")
 	)
+	(hierarchical_label "1.2V_EN"
+		(shape input)
+		(at 64.77 149.86 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "127fae29-e5a5-4cf1-8f8f-e1923fa8041b")
+	)
+	(hierarchical_label "1.8V_EN"
+		(shape input)
+		(at 64.77 111.76 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e697e3b-354c-4fbd-b03f-c1b91e0244dc")
+	)
+	(hierarchical_label "2.5V_EN"
+		(shape input)
+		(at 64.77 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7bdea5f-aa71-4160-b318-8ddbfb23dace")
+	)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 58.42 41.91 0)
@@ -3490,7 +3455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3650,7 +3615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -3810,7 +3775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.88 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3892,7 +3857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4284,7 +4249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ferrite_SMD_AKL:Ferrite_0603_1608Metric"
 			(at 219.71 36.068 90)
 			(hide yes)
 			(show_name no)
@@ -4444,7 +4409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4526,7 +4491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4776,7 +4741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 257.81 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4858,7 +4823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5108,7 +5073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5268,7 +5233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5350,7 +5315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5432,7 +5397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.01 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5512,7 +5477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ferrite_SMD_AKL:Ferrite_0603_1608Metric"
 			(at 270.51 36.068 90)
 			(hide yes)
 			(show_name no)
@@ -5672,7 +5637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5752,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ferrite_SMD_AKL:Ferrite_0603_1608Metric"
 			(at 168.91 36.068 90)
 			(hide yes)
 			(show_name no)
@@ -5990,7 +5955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6072,7 +6037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 284.48 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6154,7 +6119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6314,7 +6279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6396,7 +6361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6478,7 +6443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6560,7 +6525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6966,7 +6931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.68 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7048,7 +7013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 118.11 0)
 			(hide yes)
 			(show_name no)

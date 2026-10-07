@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.1,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -495,7 +495,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -508,8 +508,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -648,7 +648,7 @@
         "uuid": "f3410568-889b-492f-907e-34c84712a8ea"
       }
     ],
-    "used_designators": "MK1,X1-4,D1-2,C1-61,C151-152,TP1-2,R1-20,R103,R106,R156-157,Y1,FB1-5,#PWR1-69,#PWR243,#PWR245,#PWR247,#PWR257,J1-5,U1-17",
+    "used_designators": "MK1,X1-5,D1-2,C1-67,C151-152,C155,TP1-2,R1-32,R103,R106,R156-157,Y1-2,FB1-5,#PWR1-72,#PWR129,#PWR243,#PWR245,#PWR247,#PWR257,J1-6,U1-17",
     "variants": []
   },
   "sheets": [
@@ -693,8 +693,12 @@
       "FPGA"
     ],
     [
-      "5fc89deb-5cad-4ce2-952e-b69e2bc5bb5a",
+      "f5ebd97c-c40e-46e0-a59b-1822251eacb9",
       "LTDC"
+    ],
+    [
+      "4b686590-1858-4a80-8127-0157da296cb0",
+      "Clock"
     ]
   ],
   "text_variables": {},

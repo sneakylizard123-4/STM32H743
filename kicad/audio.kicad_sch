@@ -284,6 +284,205 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Audio:AudioJack3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack3_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1074,6 +1273,18 @@
 		)
 		(uuid "864dcc9e-51b7-4027-90d0-9073e6a19868")
 	)
+	(rectangle
+		(start 25.4 101.6)
+		(end 139.7 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c5f211a0-7846-4629-b558-47c7ba3c5aed")
+	)
 	(text "I2S Output"
 		(exclude_from_sim no)
 		(at 31.496 28.194 0)
@@ -1083,6 +1294,16 @@
 			)
 		)
 		(uuid "3f91b665-60de-4e8d-a4b3-03d720ca420e")
+	)
+	(text "3.5mm trs stereo"
+		(exclude_from_sim no)
+		(at 34.798 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b7cc6d7-128c-47b1-ac1c-95c3547882a7")
 	)
 	(text "I2S Mic"
 		(exclude_from_sim no)
@@ -1931,6 +2152,30 @@
 			)
 		)
 	)
+	(global_label "AOUTL"
+		(shape input)
+		(at 59.69 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66fc023e-4b6b-49de-b154-9e95281b4ed0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.4205 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "AOUTR"
 		(shape output)
 		(at 129.54 58.42 0)
@@ -1944,6 +2189,30 @@
 		(uuid "e0c62030-f637-4dd0-8408-1267ea7d4c22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.5124 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "AOUTR"
+		(shape input)
+		(at 59.69 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e648a292-38d4-4886-b6c7-8352655b9657")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.6624 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2245,7 +2514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2325,7 +2594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2385,7 +2654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ffdc8b3-f610-48a3-96d9-87d05589f85a")
-		(property "Reference" "C41"
+		(property "Reference" "C39"
 			(at 62.23 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2407,7 +2676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.69 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2449,7 +2718,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
-					(reference "C41")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2550,6 +2819,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 53.34 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75e8983a-375a-4c23-baa5-5ffd86e358bf")
+		(property "Reference" "J5"
+			(at 51.435 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 51.435 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+			(at 53.34 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 53.34 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "a380a9a8-8fdb-405b-8dec-50b911c2b67e")
+		)
+		(pin "S"
+			(uuid "1136ffb8-6a85-41ea-b3bc-a7de0b957314")
+		)
+		(pin "R"
+			(uuid "ad458f7e-0058-4b05-a74e-c5c2b211070a")
+		)
+		(instances
+			(project "STM32H743"
+				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 95.25 38.1 0)
 		(unit 1)
@@ -2561,7 +2913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d28a5e5-4e25-4c55-a644-d151139edcbe")
-		(property "Reference" "C44"
+		(property "Reference" "C42"
 			(at 97.79 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2583,7 +2935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 95.25 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2625,7 +2977,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
-					(reference "C44")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -2643,7 +2995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cef2daf-7f42-4b55-ac74-c59676d035fe")
-		(property "Reference" "C40"
+		(property "Reference" "C38"
 			(at 52.07 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2665,7 +3017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.53 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2707,7 +3059,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
-					(reference "C40")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -2725,7 +3077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90f2acb7-2ee0-40c7-aaca-10af0e46faa4")
-		(property "Reference" "C47"
+		(property "Reference" "C45"
 			(at 167.64 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,7 +3099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2789,7 +3141,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
-					(reference "C47")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -2914,7 +3266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a23e352a-d5f0-4628-8d74-61a6cc2605fe")
-		(property "Reference" "C45"
+		(property "Reference" "C43"
 			(at 95.2563 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2934,7 +3286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 95.25 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2976,7 +3328,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
-					(reference "C45")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -2994,7 +3346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0352a1e-5891-4bb7-8f15-8ffea83238bb")
-		(property "Reference" "C43"
+		(property "Reference" "C41"
 			(at 96.52 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3016,7 +3368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3058,7 +3410,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
-					(reference "C43")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -3154,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce113649-3565-4ae3-afa9-5c00bdee0f7c")
-		(property "Reference" "C46"
+		(property "Reference" "C44"
 			(at 101.6063 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,7 +3526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.6 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3216,7 +3568,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
-					(reference "C46")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -3256,7 +3608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3383,6 +3735,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6d3ecea-8ff4-4b1e-abf0-568788eca79f")
+		(property "Reference" "#PWR039"
+			(at 71.12 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb3a3c3d-0dfc-41a0-9d65-e6c84126e43e")
+		)
+		(instances
+			(project "STM32H743"
+				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 85.09 38.1 0)
 		(unit 1)
@@ -3394,7 +3824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f401852a-2886-4c86-a64e-f0637fddd316")
-		(property "Reference" "C42"
+		(property "Reference" "C40"
 			(at 87.63 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3416,7 +3846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.09 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3458,7 +3888,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0246ab5e-4006-4e4c-99aa-76df3fac261e"
-					(reference "C42")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 63.5 0)
 			(hide yes)
 			(show_name no)

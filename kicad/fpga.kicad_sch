@@ -1356,194 +1356,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oscillator:SG-210STF"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at -5.08 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SG-210STF"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm"
-				(at 11.43 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210STF"
-				(at -2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CMOS Crystal Oscillator SPXO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Crystal Clock Oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*SMD*SeikoEpson*SG210*2.5x2.0mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SG-210STF_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -0.635) (xy -1.27 -0.635) (xy -1.27 0.635) (xy -0.635 0.635) (xy -0.635 -0.635) (xy 0 -0.635)
-						(xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SG-210STF_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~{ST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "Vcc"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+1V8"
 			(power global)
 			(pin_names
@@ -1652,131 +1464,6 @@
 					(length 0)
 					(hide yes)
 					(name "+1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1908,18 +1595,6 @@
 		)
 		(uuid "00b26f8a-f1be-4a2f-b1b3-a5616e8742f7")
 	)
-	(rectangle
-		(start 101.6 25.4)
-		(end 139.7 76.2)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0300a684-c2f1-446f-b4f1-3b5eac8aa500")
-	)
 	(text "FPGA Power"
 		(exclude_from_sim no)
 		(at 31.75 75.184 0)
@@ -1929,16 +1604,6 @@
 			)
 		)
 		(uuid "d022edfe-5d77-48a9-ac34-5d4e22af8347")
-	)
-	(text "Clock"
-		(exclude_from_sim no)
-		(at 104.648 74.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f7076f34-0204-45b5-8f50-e93e692978ea")
 	)
 	(junction
 		(at 78.74 36.83)
@@ -1965,20 +1630,10 @@
 		(uuid "805b30ba-2873-47d3-8188-b9a060fe317b")
 	)
 	(junction
-		(at 113.03 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd3da534-dec3-43b1-a544-04d869bb24c3")
-	)
-	(junction
 		(at 58.42 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f85c01b1-c163-487e-873d-4b97ab297a14")
-	)
-	(no_connect
-		(at 105.41 58.42)
-		(uuid "5c83c6ad-6b2c-4887-a8cd-9ad90af644ad")
 	)
 	(bus_entry
 		(at 175.26 158.75)
@@ -2033,16 +1688,6 @@
 			(type default)
 		)
 		(uuid "fe2c323b-6a15-4a40-bc2f-f6fc185ff178")
-	)
-	(wire
-		(pts
-			(xy 118.11 44.45) (xy 118.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b0f79d-b1d1-496d-82b6-fae6f4d3a173")
 	)
 	(wire
 		(pts
@@ -2166,16 +1811,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 38.1) (xy 113.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60907e7a-a68f-4b6d-9a05-a115a06d56dd")
-	)
-	(wire
-		(pts
 			(xy 266.7 111.76) (xy 266.7 113.03)
 		)
 		(stroke
@@ -2183,16 +1818,6 @@
 			(type default)
 		)
 		(uuid "63c72444-5dae-495b-b94a-62ffc653713b")
-	)
-	(wire
-		(pts
-			(xy 113.03 38.1) (xy 118.11 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68399135-6715-40bc-8f99-6442fd9be257")
 	)
 	(wire
 		(pts
@@ -2306,16 +1931,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 39.37) (xy 118.11 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c326c5-f6e5-430a-8aae-cbc143ab47ee")
-	)
-	(wire
-		(pts
 			(xy 193.04 170.18) (xy 193.04 118.11)
 		)
 		(stroke
@@ -2346,16 +1961,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 66.04) (xy 113.03 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83f675a-9c3b-4152-978b-a6a9c1f866f5")
-	)
-	(wire
-		(pts
 			(xy 78.74 35.56) (xy 78.74 36.83)
 		)
 		(stroke
@@ -2363,16 +1968,6 @@
 			(type default)
 		)
 		(uuid "cc848ef5-15c6-4d30-841d-7eb7e4891023")
-	)
-	(wire
-		(pts
-			(xy 113.03 36.83) (xy 113.03 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2483e9d-275f-4349-bad5-9b9081ca5cf5")
 	)
 	(wire
 		(pts
@@ -2403,16 +1998,6 @@
 			(type default)
 		)
 		(uuid "db9c8966-40d1-497e-8c72-7fb50aa54dfc")
-	)
-	(wire
-		(pts
-			(xy 120.65 58.42) (xy 121.92 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e03071e8-ec2b-4953-b8bb-855f990842e1")
 	)
 	(wire
 		(pts
@@ -2564,53 +2149,16 @@
 		)
 		(uuid "ea562bd5-6250-402b-af23-73d57e30e04b")
 	)
-	(global_label "FPGA_CLK"
-		(shape input)
-		(at 121.92 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d080321-4885-4d18-9d9c-61316d9e36d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1581 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FPGA_CLK"
+	(hierarchical_label "CLKIN"
 		(shape input)
 		(at 186.69 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b47a1ebf-f612-4dfd-8a75-dfee49fdae7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4519 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "072b541b-a4c2-4f3c-8b6f-4aa48b092751")
 	)
 	(hierarchical_label "FPGA{~{CRESET} CDONE}"
 		(shape input)
@@ -2624,7 +2172,7 @@
 		(uuid "79274e2c-74a6-407b-a139-f82bd07a1515")
 	)
 	(hierarchical_label "SPI1{NSS SCK MISO MOSI}"
-		(shape input)
+		(shape bidirectional)
 		(at 173.99 165.1 180)
 		(effects
 			(font
@@ -2646,7 +2194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0663e90d-9198-40d2-9c26-e6712ae27948")
-		(property "Reference" "C59"
+		(property "Reference" "C55"
 			(at 60.96 39.3762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,7 +2216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2710,85 +2258,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 113.03 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "101d6e6d-b00a-475b-b59e-6580cd488a5e")
-		(property "Reference" "#PWR064"
-			(at 113.03 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 113.03 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a0934a5-cb9d-4d78-bf78-8edc490404b8")
-		)
-		(instances
-			(project "STM32H743"
-				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR064")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -2806,7 +2276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd66e74-ef58-4159-9970-d6805e3a3e94")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 46.99 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2866,163 +2336,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "280d21b1-8513-4a91-ae36-83b7c727d78c")
-		(property "Reference" "#PWR066"
-			(at 118.11 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b5bbdf4-c73e-4d22-a574-dc5705028dab")
-		)
-		(instances
-			(project "STM32H743"
-				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3529d4b8-0003-4ec5-bb61-a859675581dd")
-		(property "Reference" "#PWR065"
-			(at 113.03 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e275c930-6db0-4af1-9363-32702eb4ccc3")
-		)
-		(instances
-			(project "STM32H743"
-				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR065")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3040,7 +2354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ee93bc-008b-4084-82fa-b0b99221743d")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3100,7 +2414,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3138,7 +2452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ferrite_SMD_AKL:Ferrite_0603_1608Metric"
 			(at 67.31 38.608 90)
 			(hide yes)
 			(show_name no)
@@ -3188,88 +2502,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 118.11 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "549a37e6-5469-4770-bcb1-d37ee9be26ab")
-		(property "Reference" "C61"
-			(at 120.65 40.6462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 120.65 43.1862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 118.11 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6f35303a-5e9b-4f29-a84b-448217991859")
-		)
-		(pin "1"
-			(uuid "1c0ca9a5-9cd2-4373-93ad-2dd8f6572320")
-		)
-		(instances
-			(project "STM32H743"
-				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "C61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 78.74 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -3280,7 +2512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "562733ab-6cba-49ea-969a-89dadee07a55")
-		(property "Reference" "C60"
+		(property "Reference" "C56"
 			(at 81.28 39.3762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3302,7 +2534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3344,7 +2576,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "C60")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -3362,7 +2594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b390ebd-41b8-424d-a6b6-f17037db3c7a")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR065"
 			(at 266.7 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3422,93 +2654,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Oscillator:SG-210STF")
-		(at 113.03 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c101bc8-ed9c-4123-8bd0-b6cf70d3604f")
-		(property "Reference" "Y1"
-			(at 124.46 51.9998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SG-210STF 12MHz"
-			(at 124.46 54.5398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm"
-			(at 124.46 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210STF"
-			(at 110.49 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CMOS Crystal Oscillator SPXO"
-			(at 113.03 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e5f89029-6a98-4415-86ce-ead873048588")
-		)
-		(pin "2"
-			(uuid "e2bc9325-acce-481f-ad0c-4acb7f6d93fc")
-		)
-		(pin "1"
-			(uuid "527fb367-c457-4936-a040-b2f3c7c66a31")
-		)
-		(pin "4"
-			(uuid "dab98503-3b29-4635-82f2-30187d60231d")
-		)
-		(instances
-			(project "STM32H743"
-				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "Y1")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3747,7 +2893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b9458dd-a2fd-4c13-a344-5b75612f786c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3807,7 +2953,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4494,7 +3640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bef3038c-950d-45a9-9f21-8c11f9d9912f")
-		(property "Reference" "C58"
+		(property "Reference" "C54"
 			(at 36.83 39.3762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,7 +3662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4558,7 +3704,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "C58")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -4576,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d451b3d5-009a-4d25-9b5c-a6d9ec157694")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 46.99 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4636,7 +3782,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4654,7 +3800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9722fd0-e4eb-4434-9b85-f1a15315bf11")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR064"
 			(at 208.28 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4714,7 +3860,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR068")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4732,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed6465f1-5645-4dde-8e7d-97e5c7956fd8")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR063"
 			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4792,7 +3938,7 @@
 		(instances
 			(project "STM32H743"
 				(path "/f3410568-889b-492f-907e-34c84712a8ea/0cc5d7ee-a1d0-419a-91b6-8c53e3975753"
-					(reference "#PWR067")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)

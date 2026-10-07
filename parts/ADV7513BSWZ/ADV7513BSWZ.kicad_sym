@@ -1,0 +1,575 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ADV7513BSWZ" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -15.24 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ADV7513BSWZ" (id 1) (at -15.24 -76.2 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ADV7513BSWZ:QFP50P1200X1200X160-65N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Analog Devices" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "LQFP -64 Analog Devices" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/ADV7513BSWZ/Analog+Devices/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC 7351B" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "B" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/ADV7513BSWZ/Analog+Devices/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "ADV7513BSWZ" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            165 MHz High Performance HDMI Transmitter\n                        \n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "ANALOG DEVICES" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ADV7513BSWZ_0_0"
+      (rectangle (start -15.24 -73.66) (end 15.24 73.66)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at 20.32 66.04 180.0) (length 5.08)
+        (name "DVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 66.04 180.0) (length 5.08) hide
+        (name "DVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 66.04 180.0) (length 5.08) hide
+        (name "DVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 66.04 180.0) (length 5.08) hide
+        (name "DVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "51"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 33.02 0) (length 5.08)
+        (name "VSYNC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 55.88 0) (length 5.08)
+        (name "SPDIF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 43.18 0) (length 5.08)
+        (name "MCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 53.34 0) (length 5.08)
+        (name "I2S0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 50.8 0) (length 5.08)
+        (name "I2S1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 48.26 0) (length 5.08)
+        (name "I2S2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 45.72 0) (length 5.08)
+        (name "I2S3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 38.1 0) (length 5.08)
+        (name "SCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 40.64 0) (length 5.08)
+        (name "LRCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 68.58 180.0) (length 5.08)
+        (name "PVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 63.5 180.0) (length 5.08)
+        (name "BGVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -66.04 0) (length 5.08)
+        (name "R_EXT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 71.12 180.0) (length 5.08)
+        (name "AVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 71.12 180.0) (length 5.08) hide
+        (name "AVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 71.12 180.0) (length 5.08) hide
+        (name "AVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -50.8 0) (length 5.08)
+        (name "HPD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 17.78 180.0) (length 5.08)
+        (name "TXC−"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 20.32 180.0) (length 5.08)
+        (name "TXC+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 40.64 180.0) (length 5.08)
+        (name "TX0−"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 43.18 180.0) (length 5.08)
+        (name "TX0+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -53.34 0) (length 5.08)
+        (name "PD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 33.02 180.0) (length 5.08)
+        (name "TX1−"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 35.56 180.0) (length 5.08)
+        (name "TX1+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 25.4 180.0) (length 5.08)
+        (name "TX2−"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 27.94 180.0) (length 5.08)
+        (name "TX2+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 55.88 180.0) (length 5.08)
+        (name "INT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 60.96 180.0) (length 5.08)
+        (name "DVDD_3V"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -45.72 0) (length 5.08)
+        (name "CEC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -43.18 0) (length 5.08)
+        (name "CEC_CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output clock (at 20.32 50.8 180.0) (length 5.08)
+        (name "DDCSCL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 48.26 180.0) (length 5.08)
+        (name "DDCSDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -58.42 0) (length 5.08)
+        (name "SCL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -60.96 0) (length 5.08)
+        (name "SDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 20.32 0) (length 5.08)
+        (name "D0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "62"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 17.78 0) (length 5.08)
+        (name "D1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "61"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 15.24 0) (length 5.08)
+        (name "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "60"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 12.7 0) (length 5.08)
+        (name "D3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "59"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 10.16 0) (length 5.08)
+        (name "D4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "58"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 7.62 0) (length 5.08)
+        (name "D5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "57"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 5.08 0) (length 5.08)
+        (name "D6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "56"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 2.54 0) (length 5.08)
+        (name "D7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "55"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 0.0 0) (length 5.08)
+        (name "D8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "54"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -2.54 0) (length 5.08)
+        (name "D9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "52"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -5.08 0) (length 5.08)
+        (name "D10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "50"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -7.62 0) (length 5.08)
+        (name "D11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "49"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -10.16 0) (length 5.08)
+        (name "D12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "48"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -12.7 0) (length 5.08)
+        (name "D13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "47"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -15.24 0) (length 5.08)
+        (name "D14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "46"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -17.78 0) (length 5.08)
+        (name "D15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "45"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -20.32 0) (length 5.08)
+        (name "D16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -22.86 0) (length 5.08)
+        (name "D17"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -25.4 0) (length 5.08)
+        (name "D18"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -27.94 0) (length 5.08)
+        (name "D19"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -30.48 0) (length 5.08)
+        (name "D20"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -33.02 0) (length 5.08)
+        (name "D21"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -35.56 0) (length 5.08)
+        (name "D22"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 -38.1 0) (length 5.08)
+        (name "D23"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 25.4 0) (length 5.08)
+        (name "CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "53"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 27.94 0) (length 5.08)
+        (name "DE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "63"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 30.48 0) (length 5.08)
+        (name "HSYNC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "64"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -71.12 180.0) (length 5.08)
+        (name "EP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "65"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

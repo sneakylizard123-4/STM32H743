@@ -27,6 +27,26 @@
 		)
 		(uuid "6cb14b4b-3c0c-410b-af02-84e7896e85d0")
 	)
+	(text "or find display"
+		(exclude_from_sim no)
+		(at 122.174 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be796214-5bc1-4372-b501-146a1da569be")
+	)
+	(text "find connector?"
+		(exclude_from_sim no)
+		(at 122.936 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cff67cb9-97cd-40a3-98c7-f396614cb35f")
+	)
 	(bus_entry
 		(at 63.5 104.14)
 		(size 2.54 2.54)
