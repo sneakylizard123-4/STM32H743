@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CS43131-CNZR") (type "KiCad") (uri "/home/sneak/KicadProjects/MP3player/kicad/parts/CS4313-CNZR/symbol/CS43131-CNZR.kicad_sym") (options "") (descr ""))
+	(lib (name "ADV7513BSWZ") (type "KiCad") (uri "/home/sneak/KicadProjects/STM32H743/parts/ADV7513BSWZ/ADV7513BSWZ.kicad_sym") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "/home/sneak/Documents/Kicad/easyeda2kicad/mic/easyeda2kicad.kicad_sym") (options "") (descr ""))
+)

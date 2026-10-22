@@ -1781,7 +1781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
 			(at 232.41 35.56 0)
 			(hide yes)
 			(show_name no)
