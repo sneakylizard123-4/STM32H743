@@ -1,0 +1,20 @@
+# KiCad restore backups and local history
+_restore_backup_*/
+.history/
+*.kicad_prl
+*.lck
+fp-info-cache
+
+# Blender backups and cache
+*.blend1
+*.pcb3d
+blender/*.blend1
+
+# Build and tool output
+__pycache__/
+*.pyc
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
