@@ -1,0 +1,39 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32H7 -DSTM32H7xx -DSTM32H743xx",
+    "f_cpu": "480000000L",
+    "mcu": "stm32h743xih6",
+    "product_line": "STM32H743xx",
+    "stm32cube": {
+      "custom_config_header": "yes"
+    }
+  },
+  "debug": {
+    "jlink_device": "STM32H743XI",
+    "openocd_target": "stm32h7x"
+  },
+  "frameworks": [
+    "stm32cube"
+  ],
+  "name": "Generic STM32H743XIH6",
+  "upload": {
+    "maximum_ram_size": 524288,
+    "maximum_size": 2097152,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink",
+      "jlink",
+      "cmsis-dap",
+      "blackmagic",
+      "dfu"
+    ]
+  },
+  "connectivity": [
+    "can",
+    "ethernet"
+  ],
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h743xi.html",
+  "vendor": "Generic"
+}

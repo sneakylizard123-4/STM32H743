@@ -9,6 +9,7 @@ extern "C" {
 #define HAL_CORTEX_MODULE_ENABLED
 #define HAL_DMA_MODULE_ENABLED
 #define HAL_DFSDM_MODULE_ENABLED
+#define HAL_FLASH_MODULE_ENABLED
 #define HAL_GPIO_MODULE_ENABLED
 #define HAL_I2C_MODULE_ENABLED
 #define HAL_PWR_MODULE_ENABLED
@@ -52,6 +53,10 @@ extern "C" {
 #ifdef HAL_RCC_MODULE_ENABLED
 #include "stm32h7xx_hal_rcc.h"
 #include "stm32h7xx_hal_rcc_ex.h"
+#endif
+
+#ifdef HAL_FLASH_MODULE_ENABLED
+#include "stm32h7xx_hal_flash.h"
 #endif
 
 #ifdef HAL_GPIO_MODULE_ENABLED

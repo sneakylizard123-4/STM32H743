@@ -14,6 +14,8 @@ blender/*.blend1
 __pycache__/
 *.pyc
 .venv/
+firmware/build/
+.pio/
 
 # OS files
 .DS_Store

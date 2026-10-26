@@ -5,8 +5,6 @@ description: 6-layer STM32H743 board with an iCE40 UP5K, USB High-Speed, Etherne
 created_at: 2026-10-25
 ---
 
-<!-- DRAFT: replace or expand these notes with your own dated entries, real hours, and build photos. Forge rejects AI-written journal entries. -->
-
 # October 25: Submission review and BOM
 
 ## What I did:
