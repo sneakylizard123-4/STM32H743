@@ -505,6 +505,32 @@ created_at: 2026-09-26
 
 **Total time spent: 2.5 hours**
 
+# October 25: PCB into Blender
+
+## What I did:
+
+- Exported the board with PCB2Blender. The archive has the board outline, one WRL for each footprint, the copper, mask, paste, and silkscreen layers, and the pad data.
+- Imported the board and the component meshes into Blender.
+- Checked the board size against the 100 x 75 mm outline and set up the scene collection and camera.
+- Built a PCB material with separate solder mask, copper, silkscreen, board edge, and surface finish inputs.
+- Added a three-point light rig and a camera.
+- Rendered a 1920x1080 frame in Cycles and saved the scene
+
+## Why:
+
+- The KiCad 3D viewer is fine for checking part placement, but I wanted a better image of the finished board.
+- Keeping the copper and silkscreen layers separate lets me use the real board artwork in the material instead of faking it.
+- The board has a lot of small parts, including the TFBGA-265 and the 2x22 headers, so I checked the import before adding materials.
+- A flat green board material hides the silkscreen and the small parts.
+- I wanted the render to show the actual copper and silkscreen artwork from the board files.
+- The render is for the project page, so I wanted it to look like the assembled board.
+
+## Screenshots:
+
+![Cycles render of the PCB](images/screenshots/2026-1025-1123-blender-render.png)
+
+**Total time spent: 2 hours**
+
 # October 25: Submission review and BOM
 
 ## What I did:
