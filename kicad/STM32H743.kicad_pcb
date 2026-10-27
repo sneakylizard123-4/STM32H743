@@ -8355,13 +8355,14 @@
 		(descr "2.0mm x 2.0mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLMVC-FKA.pdf")
 		(tags "LED Cree PLCC-4 2020 CLMVB-FKA CLMVC-FKA")
 		(property "Reference" "D11"
-			(at 0 -2.25 0)
+			(at 0 -1.6 0)
 			(layer "F.SilkS")
 			(uuid "a37c952e-389b-4e0f-aa5c-aff52fa5a113")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -40844,13 +40845,14 @@
 		(descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x05 2.54mm double row")
 		(property "Reference" "J9"
-			(at 1.27 -2.380001 90)
+			(at 1.27 -2.02 90)
 			(layer "F.SilkS")
 			(uuid "8d15de96-889e-4e0f-aabd-805ea8b1641b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -42835,6 +42837,136 @@
 				(thickness 0.1)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "3.3V"
+		(at 93.6 38 90)
+		(layer "F.SilkS")
+		(uuid "f1401b59-22ae-43c6-9829-5f3123a016f7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "PH5"
+		(at 96.1 38 90)
+		(layer "F.SilkS")
+		(uuid "a05c24dd-a2d6-4c9f-909b-93399515cfe1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "PH6"
+		(at 98.7 38 90)
+		(layer "F.SilkS")
+		(uuid "3f862528-7ea5-4fea-9fa4-4d2bc01f84f2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "PH7"
+		(at 101.2 38 90)
+		(layer "F.SilkS")
+		(uuid "bee19a74-5dd2-47de-9ab7-b0e684ddc238")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "PI12"
+		(at 103.7 38 90)
+		(layer "F.SilkS")
+		(uuid "4794047f-9387-4289-b782-7bdb70573f94")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "PI13"
+		(at 106.3 38 90)
+		(layer "F.SilkS")
+		(uuid "1e87480d-5fa8-4227-8cba-77601a00a46d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "PJ9"
+		(at 108.8 38 90)
+		(layer "F.SilkS")
+		(uuid "88e6d914-cc4c-4369-adda-78eb31098fde")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "PJ11"
+		(at 111.3 38 90)
+		(layer "F.SilkS")
+		(uuid "998dfd5a-b42d-4ad9-8569-7747272eb160")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "PK2"
+		(at 113.9 38 90)
+		(layer "F.SilkS")
+		(uuid "9cc4e59f-b50f-47bc-8e77-6bb721c55172")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "GND"
+		(at 116.5 38 90)
+		(layer "F.SilkS")
+		(uuid "72d81b38-58a5-4305-a1e7-56889eb18900")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right)
 		)
 	)
 	(gr_text "3.3V"
