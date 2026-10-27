@@ -578,3 +578,21 @@ created_at: 2026-09-26
 ![Firmware boot test in main.c](images/screenshots/2026-1026-0950-firmware.png)
 
 **Total time spent: 1 hour**
+
+# October 26: Blender render and silkscreen
+
+## What I did:
+
+- Fixed large silkscreens on PCB, so that all the silkscreen size is uniform
+- Added silkscreen labels to unlabeled headers
+- Added better lighting in blender to show the details of the headers more
+
+## Why:
+
+- The blender render is the fancy part of the project
+- Unlabeled headers are a recurring nightmare
+- Silkscreen text size mismatch looks funny
+
+## Screenshots:
+
+![New Render](blender/Purple.png)
